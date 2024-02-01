@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book Dom Casmurro - LibriVox.org</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container-aplicativo">
+        <img src="./src/assets/images/dom-casmurro.jpeg" alt="Ebook Dom Casmurro">
+
+            <div id="informacoes-faixa">
+                <p id="capitulo">Capitulo 1</p>
+                <p id="nome-autor">Machado de Assis</p>
+            </div>
+            
+            <!-- TAG "audio" operar o audio -->
+            <audio id="audio-capitulo" src="./src/assets/books/dom-casmurro/1.mp3"></audio>
+            
+            <div id="container-botoes">
+                <button id="anterior" class="bi bi-skip-backward-btn-fill" atl="Voltar">
+                </button>
+                <button id="play-pause" class="bi bi-play-btn-fill" alt="Play e Pause">
+                </button>
+                <button id="proximo" class="bi bi-skip-forward-btn-fill" atl="Avançar">
+                </button>
+            </div>
+
+    </div>
+    <script src="./e-book.js"></script>
+        
+</body>
+</html>
